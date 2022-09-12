@@ -1,0 +1,19 @@
+{
+  "name": "creative-agency-website",
+  "version": "1.0.0",
+  "description": "> Simple HTML/CSS website from the [YouTube tutorial project](https://www.youtube.com/watch?v=lvYnfMOUOJY&t=274s)\r ![Creative Agency](/images/screenshot.png 'Creative Agency')\r [LIVE PREVIEW](https://raw.githack.com/bradtraversy/creative-agency-website/master/index.html)",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/pages/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.54.9"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

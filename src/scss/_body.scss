@@ -1,4 +1,4 @@
-@use "variables" as color;
+@use "variables" as *;
 
 @import url("https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Libre+Bodoni:wght@600&display=swap");
 
@@ -44,7 +44,7 @@ section.home {
 .btn {
   cursor: pointer;
   display: inline-block;
-  background: color.$primary-color;
+  background: $primary-color;
   color: #fff;
   text-decoration: none;
   padding: 10px 30px;
@@ -72,7 +72,7 @@ section.home {
   right: 0;
   width: 60px;
   height: 60px;
-  background: color.$primary-color url(../images/menu.png);
+  background: $primary-color url(../images/menu.png);
   background-size: 30px;
   background-position: center;
   background-repeat: no-repeat;
@@ -81,7 +81,7 @@ section.home {
 }
 
 .toggle.active {
-  background: color.$primary-color url(../images/close.png);
+  background: $primary-color url(../images/close.png);
   background-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
@@ -123,7 +123,7 @@ section.home {
 }
 
 .navigation ul li a:hover {
-  color: color.$primary-color;
+  color: $primary-color;
 }
 
 .navigation .social-bar {
@@ -161,6 +161,7 @@ section.home {
   right: 0;
   height: 110%;
   width: 650px;
+  object-fit: cover;
 }
 
 /* SERVICES PAGE */
@@ -184,7 +185,7 @@ section.home {
   font-size: 24px;
   font-weight: 500;
   margin-top: 20px;
-  color: color.$secondary-color;
+  color: $secondary-color;
 }
 
 .services .service .icon img {
@@ -293,7 +294,7 @@ section.home {
 }
 
 .contact-form .row input[type="submit"] {
-  background-color: color.$secondary-color;
+  background-color: $secondary-color;
   color: #fff;
   margin: 0;
   text-transform: uppercase;
@@ -321,7 +322,7 @@ section.home {
 }
 
 .contact-info .info-box .details h4 {
-  color: color.$secondary-color;
+  color: $secondary-color;
 }
 
 .contact-info .info-box .details p,

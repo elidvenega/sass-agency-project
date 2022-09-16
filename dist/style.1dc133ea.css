@@ -158,6 +158,7 @@ section.home {
   right: 0;
   height: 110%;
   width: 650px;
+  object-fit: cover;
 }
 
 /* SERVICES PAGE */

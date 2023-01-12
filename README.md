@@ -1,5 +1,27 @@
-<!-- # Creative Agency Website
+# SCSS Agency Project
 
-> Simple HTML/CSS website from the [YouTube tutorial project](https://www.youtube.com/watch?v=lvYnfMOUOJY&t=274s)
-![Creative Agency](src/images/screenshot.png 'Creative Agency')
-[LIVE PREVIEW](https://raw.githack.com/bradtraversy/creative-agency-website/master/index.html) -->
+An agency for marketing your company products and building all the tools you will need.
+
+## Tech Stack
+
+**Client:** HTML, CSS, SCSS, Parcel, JS
+
+## Demo
+
+https://sass-agency.netlify.app/
+
+## Installation
+
+```bash
+ git https://github.com/elidvenega/sass-agency-project.git
+ # Remove the current origin repository
+ git remote remove origin
+ cd sass-agency-project
+
+```
+
+```bash
+ npm install
+ # It will be on localhost:3000
+ npm start
+```
